@@ -5,3 +5,6 @@
 
 /* Componentes */
 @import url('components/_header.css');
+
+/* Seções */
+@import url('components/_home.css');
