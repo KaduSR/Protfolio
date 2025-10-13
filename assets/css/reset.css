@@ -1,20 +1,18 @@
-/*  Simples CSS Reset*/
+/* Simple CSS Reset */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: inherit;
-    /* Herdar a fonte definida no body(código para de herança) */
+    /* Herda a fonte definida no body */
 }
 
 ul {
     list-style: none;
-    /* Remover marcadores de listas */
 }
 
 a {
     text-decoration: none;
-    /* Remover sublinhado de links */
     color: inherit;
-    /* Herdar a cor do elemento pai */
+    /* Herda a cor do elemento pai */
 }

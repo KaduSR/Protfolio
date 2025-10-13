@@ -1,37 +1,36 @@
 #home {
-    min-height: calc(100vh -85px);
-    /* Ocupa a altura total da tela menos a altura do header */
+    min-height: calc(100vh - 85px);
+    /* Ocupa a altura da tela, descontando o header */
     display: flex;
     align-items: center;
-    /* Centraliza verticalmente */
+    /* Centraliza o conteúdo verticalmente */
 }
 
 .home-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 20px;
-    /* Espaçamento entre os elementos */
+    gap: 40px;
+    /* Espaço entre o texto e a imagem */
 }
 
 .home-texto {
     flex: 1;
-    /* Ocupa o espaço disponível */
+    /* Permite que o texto ocupe o espaço disponível */
 }
 
 .home-texto h1 {
-    font-family: var(--font-principal);
+    font-family: var(--fonte-principal);
     font-size: 4rem;
-    /* Tamanho grande para destaque */
+    /* Tamanho grande para impacto */
     color: var(--cor-dourado);
     margin-bottom: 1rem;
-    ;
 }
 
-.home-text p {
+.home-texto p {
     font-size: 1.25rem;
     line-height: 1.6;
-    /* Espaçamento entre linhas para melhor leitura */
+    /* Melhora a legibilidade */
     margin-bottom: 2rem;
 }
 
@@ -57,17 +56,17 @@
 .home-imagem {
     flex: 1;
     text-align: center;
-    /* Centraliza a imagem horizontalmente */
+    /* Centraliza a imagem se o container for maior */
 }
 
 .home-imagem img {
     max-width: 100%;
     height: auto;
-    animation: flutuar 3s ease-in-out infinite;
-    /* Animação de flutuar */
+    animation: flutuar 5s ease-in-out infinite;
+    /* Animação sutil */
 }
 
-/* Animação para efeito de flutuar */
+/* Animação para a imagem */
 @keyframes flutuar {
     0% {
         transform: translateY(0);

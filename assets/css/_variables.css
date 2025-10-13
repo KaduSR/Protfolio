@@ -1,12 +1,11 @@
-:root{
-    /* Paleta de cores */ 
+:root {
+    /* Paleta de Cores */
     --cor-fundo: #1a1a1a;
     --cor-texto: #f5f5f5;
-    --cor-dourado: #daa520
+    --cor-dourado: #daa520;
     --cor-vermelho: #c0392b;
 
-
     /* Tipografia */
-    --font-principal: 'montserrat', sans-serif;
-    --font-secundaria: 'lato', sans-serif;
+    --fonte-principal: 'Montserrat', sans-serif;
+    --fonte-secundaria: 'Lato', sans-serif;
 }

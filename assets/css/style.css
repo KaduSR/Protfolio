@@ -1,4 +1,5 @@
 /* Arquivo principal que importa todos os outros */
+
 @import url('reset.css');
 @import url('_variables.css');
 @import url('global.css');
@@ -7,4 +8,5 @@
 @import url('components/_header.css');
 
 /* Seções */
-@import url('components/_home.css');
+@import url('sections/_home.css');
+/* NOVA LINHA */
