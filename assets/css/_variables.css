@@ -1,0 +1,6 @@
+/* Variáveis CSS */
+:root {
+    --font-sans: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+    --color-bg: #ffffff;
+    --color-text: #111827;
+}

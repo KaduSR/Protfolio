@@ -1,0 +1,6 @@
+/* Estilos do site */
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 1rem;
+}
