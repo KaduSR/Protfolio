@@ -1,0 +1,30 @@
+.header .container {
+    display: flex;
+    justify-content: space-between; /* Coloca o logo na esquerda e o menu na direita */
+    align-items: center; /* Alinha verticalmente os itens do cabeçalho */
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.logo {
+    max-width: 200px; /* Ajuste o tamanho conforme necessário */
+}
+
+.header nav ul {
+    display: flex;
+    gap: 30px; /* Espaçamento entre os itens do menu */
+    align-items: center;;
+}
+
+.header nav a{
+    font-family: var(--fonte-principal);
+    font-weight: 700;
+    padding: 10px;
+    transition: color 0.3s; /* Efeito de transição suave para a cor */
+}
+
+.header nav a:hover {
+    color: var(--cor-secundaria); /* Cor ao passar o mouse */
+}
+
+

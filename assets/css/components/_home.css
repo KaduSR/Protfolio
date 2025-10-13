@@ -1,0 +1,4 @@
+#home {
+    min-height: calc(100vh -85px); /* Ocupa a altura total da tela menos a altura do header */
+    display:flex
+}

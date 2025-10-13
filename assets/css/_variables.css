@@ -1,6 +1,12 @@
-/* Variáveis CSS */
-:root {
-    --font-sans: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
-    --color-bg: #ffffff;
-    --color-text: #111827;
+:root{
+    /* Paleta de cores */ 
+    --cor-fundo: #1a1a1a;
+    --cor-texto: #f5f5f5;
+    --cor-dourado: #daa520
+    --cor-vermelho: #c0392b;
+
+
+    /* Tipografia */
+    --font-principal: 'montserrat', sans-serif;
+    --font-secundaria: 'lato', sans-serif;
 }

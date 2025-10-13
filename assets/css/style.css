@@ -1,6 +1,7 @@
-/* Estilos do site */
-.container {
-    max-width: 1100px;
-    margin: 0 auto;
-    padding: 1rem;
-}
+/* Arquivo principal que importa todos os outros */
+@import url('reset.css');
+@import url('_variables.css');
+@import url('global.css');
+
+/* Componentes */
+@import url('components/_header.css');

@@ -1,8 +1,16 @@
 /* Estilos globais */
-html,
+html{
+scroll-behavior: smooth; /* Rolagem suave */
+}
+
 body {
-    height: 100%;
-    font-family: var(--font-sans);
-    background: var(--color-bg);
-    color: var(--color-text);
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto);
+    font-family: var(--font-secondary);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto; /* Centraliza o container */
+    padding: 0 20px; /* Espaçamento lateral */
 }
