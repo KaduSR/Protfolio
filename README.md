@@ -1,6 +1,6 @@
 # Meu Portfólio Pessoal 🤘
 
-![Prévia do Portfólio](assets/images/screenshot-portfolio.png)
+![Prévia do Portfólio](assets/images/Print.png)
 
 Este é o repositório do meu portfólio pessoal, desenvolvido para apresentar minhas habilidades, projetos e informações de contato. O projeto foi construído do zero, com foco em código limpo, design responsivo e uma identidade visual coesa que reflete minha personalidade.
 
