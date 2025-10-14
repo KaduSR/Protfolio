@@ -101,6 +101,7 @@ body {
         justify-content: center; /* Centraliza os itens do menu */
         gap: 15px 25px; /* Ajusta o espaçamento para telas pequenas */
     }
+}
 
 /* ======================================================= */
 /* COMPONENT: FOOTER */
